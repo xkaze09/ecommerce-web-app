@@ -28,3 +28,13 @@ To run this project locally, you will need:
 
 - **Node.js** (v12 or higher)
 - **npm** or **yarn** (Package manager)
+
+### Installation
+
+1. **Clone this repository**:
+   First, clone the project to your local machine:
+   ```bash
+   git clone https://github.com/adrianhajdin/ecomm
+   cd ecommerce-web-app
+
+# To be continued . . .
