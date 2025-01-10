@@ -1,40 +1,40 @@
-# E-Commerce Website with React, Sanity, and Stripe
-
-This is a modern and fully functional e-commerce website built with **React**, **Sanity**, and **Stripe**. The project integrates a powerful content management system (Sanity) for managing products and shipping information, while Stripe handles payments and checkout. This application is designed to offer a smooth and engaging user experience, with modern animations and a clean UI.
-
-## Features
-
-- **Product Management**: Easily add and edit products using **Sanity** as the backend content platform.
-- **Stripe Integration**: Complete checkout functionality with real payment processing via **Stripe**.
-- **Advanced React Concepts**: Includes folder structure best practices, hooks, and React Context API for state management.
-- **Next.js**: Uses Next.js best practices for routing and server-side rendering (SSR) or static site generation (SSG).
-- **Modern Design and Animations**: Sleek, responsive design with smooth animations to enhance user experience.
-- **Cart and Checkout Functionality**: Advanced cart logic, product detail pages, and integrated checkout process.
-- **Deployment**: Simple deployment options for production environments.
-
-## Tech Stack
-
-- **React**: A JavaScript library for building user interfaces.
-- **Next.js**: A React framework for production-ready applications.
-- **Sanity**: A flexible content management platform to handle the e-commerce content.
-- **Stripe**: Payment processing platform for secure transactions.
-- **CSS/Styled Components**: For styling and animations.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
 
-### Prerequisites
+First, run the development server:
 
-To run this project locally, you will need:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- **Node.js** (v12 or higher)
-- **npm** or **yarn** (Package manager)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Installation
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-1. **Clone this repository**:
-   First, clone the project to your local machine:
-   ```bash
-   git clone https://github.com/adrianhajdin/ecomm
-   cd ecommerce-web-app
+[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-# To be continued . . .
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+
+This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
